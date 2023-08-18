@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  align-items: center;
+  font-family: "Gilroy", sans-serif;
+  font-size: 28px;
+}
+
+.header > img {
+  height: 22px;
+}
+
+.header > h3 {
+  margin-left: 10px;
+}
+
+.section-bar {
+  display: flex;
+  margin-left: auto;
+  gap: 20px;
+  align-items: center;
+}
+
+.search-bar > input {
+  display: flex;
+  width: 400px;
+  padding: 15px 25px;
+  color: #808080;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #808080;
+  font-weight: 600;
+  background-image: url("../../images/SearchBar.png");
+  background-size: 19px;
+  background-repeat: no-repeat;
+  background-position: 95%;
+}
+
+.section-bar > img {
+  display: flex;
+  height: 30px;
+}
+
+.section-bar > button {
+  display: flex;
+  border-radius: 10px;
+  background: #202020;
+  color: #fdfbfa;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 16px 25px;
+  justify-content: center;
+  align-items: center;
+}

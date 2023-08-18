@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:display=swap");
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: #fc8019;
+  color: white;
+  height: 180px;
+}
+
+.footer-primary {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 240px;
+}
+
+.logo-footer {
+  display: flex;
+  align-items: center;
+  font-family: "Gilroy", sans-serif;
+  font-size: 28px;
+}
+
+.info-footer {
+  display: flex;
+  gap: 60px;
+  font-family: "Poppins", sans-serif;
+  font: 16px;
+}
+
+.info-footer > h5 {
+  cursor: pointer;
+}
+
+.contact-footer {
+  font-family: "Poppins", sans-serif;
+  font: 14px;
+}
+
+h5 > span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.footer-social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-social-media > img {
+  cursor: pointer;
+}
