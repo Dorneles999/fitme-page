@@ -77,6 +77,7 @@ function RestaurantPage() {
             </div>
             <div className="item-image">
               <img src={ItemImage} alt="Item" />
+              <button>Add +</button>
             </div>
           </div>
           <div className="item-cart">
