@@ -2,16 +2,30 @@
 
 .footer {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: #fc8019;
   color: white;
-  height: 180px;
+  padding: 50px 240px 50px;
 }
 
-.footer-primary {
+.footer-content {
+  height: 88px;
+}
+
+.footer-dados {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo-contact {
   display: flex;
+  width: 1440px;
   justify-content: space-between;
-  margin: 0 240px;
+  align-items: center;
 }
 
 .logo-footer {
@@ -19,22 +33,23 @@
   align-items: center;
   font-family: "Gilroy", sans-serif;
   font-size: 28px;
+  gap: 10px;
 }
 
-.info-footer {
-  display: flex;
-  gap: 60px;
-  font-family: "Poppins", sans-serif;
-  font: 16px;
-}
-
-.info-footer > h5 {
-  cursor: pointer;
+.logo-footer > img {
+  width: 23px;
+  height: 20px;
 }
 
 .contact-footer {
+  display: flex;
+  align-items: center;
   font-family: "Poppins", sans-serif;
   font: 14px;
+}
+
+.contact-footer > h5 {
+  margin: 0;
 }
 
 h5 > span {
@@ -50,4 +65,27 @@ h5 > span {
 
 .footer-social-media > img {
   cursor: pointer;
+  width: 22px;
+  height: 22px;
+}
+
+.info-design {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.info-footer {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 60px;
+  font-family: "Poppins", sans-serif;
+  font: 16px;
+}
+
+.info-footer > h5 {
+  cursor: pointer;
+  margin: 0;
 }
