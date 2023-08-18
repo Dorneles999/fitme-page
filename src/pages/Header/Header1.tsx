@@ -6,10 +6,13 @@ import LogoImage from "../../images/LogoImage.png";
 function Header1() {
   return (
     <div className="header">
-      <img src={LogoImage} alt="Logo Icon" />
-      <Link to="/" style={{ textDecoration: "none", color: "#000" }}>
-        <h3>FitMe</h3>
-      </Link>
+      <div className="logo">
+        <img src={LogoImage} alt="Logo Icon" />
+        <Link to="/" style={{ textDecoration: "none", color: "#000" }}>
+          <h3 className="title">FitMe</h3>
+        </Link>
+      </div>
+      <div className="invisible-bar"></div>
     </div>
   );
 }

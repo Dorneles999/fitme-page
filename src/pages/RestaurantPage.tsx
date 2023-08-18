@@ -42,17 +42,15 @@ function RestaurantPage() {
             </div>
           </div>
           <div className="restaurant-offers">
-            <div className="offers-margin">
-              <h3>Offers</h3>
-              <div className="offer">
-                <div className="descount">
-                  <img src={PercentIcon} alt="Percentage Icon" />
-                  <p>50% off up to ₹100 | Use code TRYNEW</p>
-                </div>
-                <div className="descount">
-                  <img src={PercentIcon} alt="Percentage Icon" />
-                  <p>20% off | Use code PARTY</p>
-                </div>
+            <h3>Offers</h3>
+            <div className="offer">
+              <div className="descount">
+                <img src={PercentIcon} alt="Percentage Icon" />
+                <p>50% off up to ₹100 | Use code TRYNEW</p>
+              </div>
+              <div className="descount">
+                <img src={PercentIcon} alt="Percentage Icon" />
+                <p>20% off | Use code PARTY</p>
               </div>
             </div>
           </div>
